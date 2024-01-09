@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC265752B4D871A00F691A5 /* Estudo_GCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC265742B4D871A00F691A5 /* Estudo_GCDApp.swift */; };
+		1AC265772B4D871A00F691A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC265762B4D871A00F691A5 /* ContentView.swift */; };
+		1AC265792B4D871F00F691A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC265782B4D871F00F691A5 /* Assets.xcassets */; };
+		1AC2657C2B4D871F00F691A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC2657B2B4D871F00F691A5 /* Preview Assets.xcassets */; };
+		1AC265862B4D872000F691A5 /* Estudo_GCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC265852B4D872000F691A5 /* Estudo_GCDTests.swift */; };
+		1AC265902B4D872000F691A5 /* Estudo_GCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2658F2B4D872000F691A5 /* Estudo_GCDUITests.swift */; };
+		1AC265922B4D872000F691A5 /* Estudo_GCDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC265912B4D872000F691A5 /* Estudo_GCDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC265822B4D872000F691A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC265692B4D871A00F691A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC265702B4D871A00F691A5;
+			remoteInfo = "Estudo-GCD";
+		};
+		1AC2658C2B4D872000F691A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC265692B4D871A00F691A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC265702B4D871A00F691A5;
+			remoteInfo = "Estudo-GCD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC265712B4D871A00F691A5 /* Estudo-GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estudo-GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC265742B4D871A00F691A5 /* Estudo_GCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estudo_GCDApp.swift; sourceTree = "<group>"; };
+		1AC265762B4D871A00F691A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AC265782B4D871F00F691A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC2657B2B4D871F00F691A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AC265812B4D872000F691A5 /* Estudo-GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estudo-GCDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC265852B4D872000F691A5 /* Estudo_GCDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estudo_GCDTests.swift; sourceTree = "<group>"; };
+		1AC2658B2B4D872000F691A5 /* Estudo-GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estudo-GCDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC2658F2B4D872000F691A5 /* Estudo_GCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estudo_GCDUITests.swift; sourceTree = "<group>"; };
+		1AC265912B4D872000F691A5 /* Estudo_GCDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estudo_GCDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC2656E2B4D871A00F691A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC2657E2B4D872000F691A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC265882B4D872000F691A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC265682B4D871A00F691A5 = {
+			isa = PBXGroup;
+			children = (
+				1AC265732B4D871A00F691A5 /* Estudo-GCD */,
+				1AC265842B4D872000F691A5 /* Estudo-GCDTests */,
+				1AC2658E2B4D872000F691A5 /* Estudo-GCDUITests */,
+				1AC265722B4D871A00F691A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC265722B4D871A00F691A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC265712B4D871A00F691A5 /* Estudo-GCD.app */,
+				1AC265812B4D872000F691A5 /* Estudo-GCDTests.xctest */,
+				1AC2658B2B4D872000F691A5 /* Estudo-GCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC265732B4D871A00F691A5 /* Estudo-GCD */ = {
+			isa = PBXGroup;
+			children = (
+				1AC265742B4D871A00F691A5 /* Estudo_GCDApp.swift */,
+				1AC265762B4D871A00F691A5 /* ContentView.swift */,
+				1AC265782B4D871F00F691A5 /* Assets.xcassets */,
+				1AC2657A2B4D871F00F691A5 /* Preview Content */,
+			);
+			path = "Estudo-GCD";
+			sourceTree = "<group>";
+		};
+		1AC2657A2B4D871F00F691A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2657B2B4D871F00F691A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AC265842B4D872000F691A5 /* Estudo-GCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC265852B4D872000F691A5 /* Estudo_GCDTests.swift */,
+			);
+			path = "Estudo-GCDTests";
+			sourceTree = "<group>";
+		};
+		1AC2658E2B4D872000F691A5 /* Estudo-GCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2658F2B4D872000F691A5 /* Estudo_GCDUITests.swift */,
+				1AC265912B4D872000F691A5 /* Estudo_GCDUITestsLaunchTests.swift */,
+			);
+			path = "Estudo-GCDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC265702B4D871A00F691A5 /* Estudo-GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC265952B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCD" */;
+			buildPhases = (
+				1AC2656D2B4D871A00F691A5 /* Sources */,
+				1AC2656E2B4D871A00F691A5 /* Frameworks */,
+				1AC2656F2B4D871A00F691A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Estudo-GCD";
+			productName = "Estudo-GCD";
+			productReference = 1AC265712B4D871A00F691A5 /* Estudo-GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC265802B4D872000F691A5 /* Estudo-GCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC265982B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCDTests" */;
+			buildPhases = (
+				1AC2657D2B4D872000F691A5 /* Sources */,
+				1AC2657E2B4D872000F691A5 /* Frameworks */,
+				1AC2657F2B4D872000F691A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC265832B4D872000F691A5 /* PBXTargetDependency */,
+			);
+			name = "Estudo-GCDTests";
+			productName = "Estudo-GCDTests";
+			productReference = 1AC265812B4D872000F691A5 /* Estudo-GCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AC2658A2B4D872000F691A5 /* Estudo-GCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC2659B2B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCDUITests" */;
+			buildPhases = (
+				1AC265872B4D872000F691A5 /* Sources */,
+				1AC265882B4D872000F691A5 /* Frameworks */,
+				1AC265892B4D872000F691A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC2658D2B4D872000F691A5 /* PBXTargetDependency */,
+			);
+			name = "Estudo-GCDUITests";
+			productName = "Estudo-GCDUITests";
+			productReference = 1AC2658B2B4D872000F691A5 /* Estudo-GCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC265692B4D871A00F691A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1AC265702B4D871A00F691A5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1AC265802B4D872000F691A5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1AC265702B4D871A00F691A5;
+					};
+					1AC2658A2B4D872000F691A5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1AC265702B4D871A00F691A5;
+					};
+				};
+			};
+			buildConfigurationList = 1AC2656C2B4D871A00F691A5 /* Build configuration list for PBXProject "Estudo-GCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC265682B4D871A00F691A5;
+			productRefGroup = 1AC265722B4D871A00F691A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC265702B4D871A00F691A5 /* Estudo-GCD */,
+				1AC265802B4D872000F691A5 /* Estudo-GCDTests */,
+				1AC2658A2B4D872000F691A5 /* Estudo-GCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC2656F2B4D871A00F691A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC2657C2B4D871F00F691A5 /* Preview Assets.xcassets in Resources */,
+				1AC265792B4D871F00F691A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC2657F2B4D872000F691A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC265892B4D872000F691A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC2656D2B4D871A00F691A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC265772B4D871A00F691A5 /* ContentView.swift in Sources */,
+				1AC265752B4D871A00F691A5 /* Estudo_GCDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC2657D2B4D872000F691A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC265862B4D872000F691A5 /* Estudo_GCDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC265872B4D872000F691A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC265902B4D872000F691A5 /* Estudo_GCDUITests.swift in Sources */,
+				1AC265922B4D872000F691A5 /* Estudo_GCDUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC265832B4D872000F691A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC265702B4D871A00F691A5 /* Estudo-GCD */;
+			targetProxy = 1AC265822B4D872000F691A5 /* PBXContainerItemProxy */;
+		};
+		1AC2658D2B4D872000F691A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC265702B4D871A00F691A5 /* Estudo-GCD */;
+			targetProxy = 1AC2658C2B4D872000F691A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AC265932B4D872000F691A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AC265942B4D872000F691A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC265962B4D872000F691A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estudo-GCD/Preview Content\"";
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC265972B4D872000F691A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Estudo-GCD/Preview Content\"";
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AC265992B4D872000F691A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estudo-GCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estudo-GCD";
+			};
+			name = Debug;
+		};
+		1AC2659A2B4D872000F691A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estudo-GCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Estudo-GCD";
+			};
+			name = Release;
+		};
+		1AC2659C2B4D872000F691A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estudo-GCD";
+			};
+			name = Debug;
+		};
+		1AC2659D2B4D872000F691A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S457XR6LAD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elzo.Estudo-GCDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Estudo-GCD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC2656C2B4D871A00F691A5 /* Build configuration list for PBXProject "Estudo-GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC265932B4D872000F691A5 /* Debug */,
+				1AC265942B4D872000F691A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC265952B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC265962B4D872000F691A5 /* Debug */,
+				1AC265972B4D872000F691A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC265982B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC265992B4D872000F691A5 /* Debug */,
+				1AC2659A2B4D872000F691A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC2659B2B4D872000F691A5 /* Build configuration list for PBXNativeTarget "Estudo-GCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC2659C2B4D872000F691A5 /* Debug */,
+				1AC2659D2B4D872000F691A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC265692B4D871A00F691A5 /* Project object */;
+}
